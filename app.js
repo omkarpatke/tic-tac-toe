@@ -49,3 +49,18 @@ Array.from(boxes).forEach(element => {
     })
 })
 
+//function for reset button
+ let resetBtn = document.getElementById('reset');
+ resetBtn.addEventListener('click' , () => {
+    let allBoxText = document.querySelectorAll('.boxInfo');
+    Array.from(allBoxText).forEach( (element) => {
+        element.innerText = '';
+    })
+    isgameOver = false;
+    if(!isgameOver){
+        document.getElementsByClassName('whosTurn')[0].innerText = 'Turn for X';
+    }
+    document.querySelector('.imgBox').getElementsByTagName('img')[0].style.width = '0px'
+
+})
+
