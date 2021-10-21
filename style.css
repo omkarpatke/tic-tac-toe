@@ -57,6 +57,19 @@ img{
 .bb-0{
     border-bottom: 0;
 }
+#reset{
+    margin: 0 16px;
+    padding: 5px 25px;
+    font-size: 1.1rem;
+    background-color: #f3ddf2;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.whosTurn{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
 
 
 
